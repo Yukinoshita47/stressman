@@ -28,6 +28,10 @@ If you wanna install this tools follow this instruction below
 
 > ./install.sh
 
+# Video Demo
+
+Stressman Installation Documentation https://youtu.be/qqOLCQ6xj_Q
+
 # Screenshot
 
 ![SS](https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-9/22528195_927985237355312_1694590288339466203_n.png?oh=ab04828945522beb0973295d2dde67e6&oe=5A653A71)
