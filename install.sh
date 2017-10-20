@@ -1,4 +1,5 @@
 echo ""
+echo  -e "     \e[92m 
 echo "@@@@@@   @@@@@@@  @@@@@@@   @@@@@@@@   @@@@@@    @@@@@@  " 
 echo "@@@@@@@   @@@@@@@  @@@@@@@@  @@@@@@@@  @@@@@@@   @@@@@@@  " 
 echo "!@@         @@!    @@!  @@@  @@!       !@@       !@@       "
@@ -53,15 +54,15 @@ echo "creating pentest directory"
 mkdir /pentest
 echo ""
 echo "copying Stressman Modules"
-cp modules/ /pentest
+cp -r modules/ /pentest
 echo ""
 echo "copying Stressman files stress.sh"
 cp stress.sh /pentest
 echo ""
 echo "copying Stressman files stressman"
-cp stress /pentest
+cp stressman /pentest
 echo ""
-echo "get in pentest directory"
+echo "get inside pentest dir"
 cd /pentest
 echo ""
 echo "giving chmod 777 for modules"
